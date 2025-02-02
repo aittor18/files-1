@@ -3,8 +3,8 @@ package org.ies.model;
 import java.util.Objects;
 
 public abstract class File {
-    private int size;
-    private String path;
+    protected int size;
+    protected String path;
 
     public File(int size, String path) {
         this.size = size;
