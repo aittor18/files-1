@@ -1,4 +1,4 @@
-package org.ies.model;
+package org.ies;
 
 public class Main {
 
