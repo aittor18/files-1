@@ -18,7 +18,7 @@ public class Text extends File {
     }
 
     public void move(String newPath) {
-        if (!newPath.equals(path)) {
+        if (newPath.equals(path)) {
             System.out.println("No hay cambios");
         } else {
             path = newPath;
