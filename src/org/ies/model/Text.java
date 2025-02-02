@@ -17,6 +17,16 @@ public class Text extends File {
         System.out.println("Contenido: " + text);
     }
 
+    public void move(String newPath) {
+        if (!newPath.equals(path)) {
+            System.out.println("No hay cambios");
+        } else {
+            path = newPath;
+            System.out.println("Se ha movido el fichero a " + newPath);
+        }
+    }
+
+
     public String getText() {
         return text;
     }
