@@ -29,6 +29,6 @@ public class ProgramReader implements Reader<Program<Text>> {
         System.out.print("Introduce el nombre del programa: ");
         String programName = scanner.nextLine();
 
-        return new Program<Text>(programName, texts);
+        return new Program<>(programName, texts);
     }
 }
