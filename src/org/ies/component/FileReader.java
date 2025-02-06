@@ -1,6 +1,7 @@
 package org.ies.component;
 
 import org.ies.model.File;
+import org.ies.model.Text;
 
 import java.util.Scanner;
 
