@@ -1,7 +1,6 @@
 package org.ies.component;
 
 import org.ies.model.File;
-import org.ies.model.Text;
 
 import java.util.Scanner;
 
@@ -13,12 +12,6 @@ public class FileReader implements Reader<File> {
 
     @Override
     public File read() {
-        int option;
-        menu();
-        return null;
-    }
-
-    private void menu() {
         int option;
         do {
             System.out.println("<<<<Introduce por teclado tu elección>>>>");
@@ -32,19 +25,20 @@ public class FileReader implements Reader<File> {
 
             switch (option) {
                 case 1:
-                    textReader.read();
-                    break;
+                    return textReader.read();
+
                 case 2:
-                    audioReader.read();
-                    break;
+                    return audioReader.read();
+
                 case 3:
-                    imageReader.read();
-                    break;
+                    return imageReader.read();
+
                 default:
                     System.out.println("Opción inválida");
 
             }
         } while (option != 4);
+        return null;
     }
 }
 
