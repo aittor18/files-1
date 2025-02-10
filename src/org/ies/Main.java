@@ -1,9 +1,7 @@
 package org.ies;
 
 import org.ies.component.ProgramReader;
-import org.ies.component.Reader;
 import org.ies.component.TextReader;
-import org.ies.model.File;
 import org.ies.model.Program;
 import org.ies.model.Text;
 
