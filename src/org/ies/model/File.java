@@ -12,6 +12,7 @@ public abstract class File {
     }
 
     public abstract void open();
+
     public abstract void move(String newPath);
 
     public int getSize() {

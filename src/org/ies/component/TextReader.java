@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 public class TextReader implements Reader<Text> {
     Scanner scanner = new Scanner(System.in);
+
     @Override
     public Text read() {
         System.out.print("Introduce el tamaño del archivo: ");
