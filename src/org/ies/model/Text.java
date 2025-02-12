@@ -12,7 +12,7 @@ public class Text extends File {
 
     @Override
     public void open() {
-        System.out.println("Tamaño = " + size);
+        System.out.println("Tamaño = " + size + "MB");
         System.out.println("Ruta: " + path);
         System.out.println("Contenido: " + text);
     }

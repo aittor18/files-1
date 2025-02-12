@@ -14,7 +14,7 @@ public class Image extends File {
 
     @Override
     public void open() {
-        System.out.println("Tamaño = " + size);
+        System.out.println("Tamaño = " + size + "MB");
         System.out.println("Ruta: " + path);
         System.out.println("Altura: " + height);
         System.out.println("Anchura: " + width);

@@ -22,6 +22,7 @@ public class Main {
         System.out.print("Introduce la ruta de salida: ");
         String outputPath = scanner.nextLine();
 
+        // Llamamos al metodo execute de program al que le pasaremos por parametro el String outputPath
         textProgram.execute(outputPath);
     }
 }
