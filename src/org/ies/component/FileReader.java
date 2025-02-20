@@ -5,7 +5,10 @@ import org.ies.model.File;
 import java.util.Scanner;
 
 public class FileReader implements Reader<File> {
+
+    // Lo mismo de antes, mejor con "private final ..."
     Scanner scanner = new Scanner(System.in);
+    // Aquí mejor invocar a los Reader<Audio, Text...>
     TextReader textReader = new TextReader();
     AudioReader audioReader = new AudioReader();
     ImageReader imageReader = new ImageReader();

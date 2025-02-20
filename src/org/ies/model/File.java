@@ -13,6 +13,7 @@ public abstract class File {
 
     public abstract void open();
 
+    // No hace falta que sea abstracto ya que utiliza campos de la superclase solo.
     public abstract void move(String newPath);
 
     public int getSize() {

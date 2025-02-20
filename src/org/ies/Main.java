@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        // Añadimos todas las dependencias necesarias para leer Program<TextFile>
+        // Añadimos todas las dependencias necesarias para leer Program<TextFile> "Aquí no es necesario private final ..."
         Scanner scanner = new Scanner(System.in);
         var textReader = new TextReader();
         var programReader = new ProgramReader(scanner, textReader);

@@ -13,6 +13,7 @@ public class Program<T extends File> {
     }
 
     public void execute(String outputPath) {
+        // T se puede sustituir por "var"
         System.out.println(programName);
         for (T file : files) {
             file.open();

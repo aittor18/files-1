@@ -5,6 +5,8 @@ import org.ies.model.Image;
 import java.util.Scanner;
 
 public class ImageReader implements Reader<Image> {
+
+    // Poner mejor "private final Scanner scanner" que generar el objeto así.
     Scanner scanner = new Scanner(System.in);
 
     @Override

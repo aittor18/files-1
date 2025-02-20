@@ -5,6 +5,7 @@ import org.ies.model.Text;
 
 import java.util.Scanner;
 
+// Debe tener genéricos
 public class ProgramReader implements Reader<Program<Text>> {
     private final Scanner scanner;
     private final TextReader textReader;
